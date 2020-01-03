@@ -1,1 +1,52 @@
-.card-img-top {cursor: pointer;}
+.img-point {cursor: pointer;}
+
+.grow1 { transition: all .2s ease-in-out; }
+.grow1:hover { transform: scale(1.1); margin: auto;}
+
+.grow2 { transition: all .2s ease-in-out; }
+.grow2:hover { transform: scale(1.2);}
+
+.toggler:hover{
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 5px var(--rui-warm-grey-100) !important;
+}
+
+/* color/shade rows */
+div#colors-div div.row:nth-child(4n), 
+div#shades-div div.row:nth-child(even){
+  background-color: var(--rui-cool-grey-000);
+}
+
+div#colors-div div.row:hover, 
+div#shades-div div.row:hover {
+  background-color: var(--rui-indigo-000);
+}
+
+/* backgroung colors */
+.bg-rui-indigo-000 {
+  background-color: var(--rui-indigo-000);
+}
+
+/* buttons */
+
+.btn-rui-cyan-100 {
+  background-color: var(--rui-cyan-100);
+  border-color: var(--rui-cyan-100);
+}
+
+.btn-rui-cyan-200 {
+  background-color: var(--rui-cyan-200);
+  border-color: var(--rui-cyan-200);
+}
+
+/* show/hide btn */
+a.toggler:hover {
+  color: white !important;
+}
+.btn-rui-cyan-200:hover {
+  background-color: var(--rui-cyan-300);
+  border-color: var(--rui-cyan-300);
+}

@@ -1,0 +1,596 @@
+:root {
+    /*Green */
+  --rui-green-000:#E3F9E5;
+
+  --rui-green-100:#C1EAC5;
+
+  --rui-green-200:#A3D9A5;
+
+  --rui-green-300:#7BC47F;
+
+  --rui-green-400:#57AE5B;
+
+  --rui-green-500:#3F9142;
+
+  --rui-green-600:#2F8132;
+
+  --rui-green-700:#207227;
+
+  --rui-green-800:#0E5814;
+
+  --rui-green-900:#05400A;
+
+
+
+  /*Green (Vivid)*/
+  --rui-green-vivid-000:#EFFCF6;
+
+  --rui-green-vivid-100:#C6F7E2;
+
+  --rui-green-vivid-200:#8EEDC7;
+
+  --rui-green-vivid-300:#65D6AD;
+
+  --rui-green-vivid-400:#3EBD93;
+
+  --rui-green-vivid-500:#27AB83;
+
+  --rui-green-vivid-600:#199473;
+
+  --rui-green-vivid-700:#147D64;
+
+  --rui-green-vivid-800:#0C6B58;
+
+  --rui-green-vivid-900:#014D40;
+
+
+
+  /*Lime Green */
+  --rui-lime-green-000:#F2FDE0;
+
+  --rui-lime-green-100:#E2F7C2;
+
+  --rui-lime-green-200:#C7EA8F;
+
+  --rui-lime-green-300:#ABDB5E;
+
+  --rui-lime-green-400:#94C843;
+
+  --rui-lime-green-500:#7BB026;
+
+  --rui-lime-green-600:#63921A;
+
+  --rui-lime-green-700:#507712;
+
+  --rui-lime-green-800:#42600C;
+
+  --rui-lime-green-900:#2B4005;
+
+
+
+  /*Lime Green (Vivid)*/
+  --rui-lime-green-vivid-000:#F8FFED;
+
+  --rui-lime-green-vivid-100:#E6FFBF;
+
+  --rui-lime-green-vivid-200:#CAFF84;
+
+  --rui-lime-green-vivid-300:#AFF75C;
+
+  --rui-lime-green-vivid-400:#8DED2D;
+
+  --rui-lime-green-vivid-500:#6CD410;
+
+  --rui-lime-green-vivid-600:#5CB70B;
+
+  --rui-lime-green-vivid-700:#399709;
+
+  --rui-lime-green-vivid-800:#2E7B06;
+
+  --rui-lime-green-vivid-900:#1E5303;
+
+
+
+  /*Blue Grey*/
+  --rui-blue-grey-000:#F0F4F8;
+
+  --rui-blue-grey-100:#D9E2EC;
+
+  --rui-blue-grey-200:#BCCCDC;
+
+  --rui-blue-grey-300:#9FB3C8;
+
+  --rui-blue-grey-400:#829AB1;
+
+  --rui-blue-grey-500:#627D98;
+
+  --rui-blue-grey-600:#486581;
+
+  --rui-blue-grey-700:#334E68;
+
+  --rui-blue-grey-800:#243B53;
+
+  --rui-blue-grey-900:#102A43;
+
+
+
+  /*Grey*/
+  --rui-grey-000:#F7F7F7;
+
+  --rui-grey-100:#E1E1E1;
+
+  --rui-grey-200:#CFCFCF;
+
+  --rui-grey-300:#B1B1B1;
+
+  --rui-grey-400:#9E9E9E;
+
+  --rui-grey-500:#7E7E7E;
+
+  --rui-grey-600:#626262;
+
+  --rui-grey-700:#515151;
+
+  --rui-grey-800:#3B3B3B;
+
+  --rui-grey-900:#222222;
+
+
+
+  /*Cool Grey*/
+  --rui-cool-grey-000:#F5F7FA;
+
+  --rui-cool-grey-100:#E4E7EB;
+
+  --rui-cool-grey-200:#CBD2D9;
+
+  --rui-cool-grey-300:#9AA5B1;
+
+  --rui-cool-grey-400:#7B8794;
+
+  --rui-cool-grey-500:#616E7C;
+
+  --rui-cool-grey-600:#52606D;
+
+  --rui-cool-grey-700:#3E4C59;
+
+  --rui-cool-grey-800:#323F4B;
+
+  --rui-cool-grey-900:#1F2933;
+
+
+
+  /*Warm Grey*/
+  --rui-warm-grey-000:#FAF9F7;
+
+  --rui-warm-grey-100:#E8E6E1;
+
+  --rui-warm-grey-200:#D3CEC4;
+
+  --rui-warm-grey-300:#B8B2A7;
+
+  --rui-warm-grey-400:#A39E93;
+
+  --rui-warm-grey-500:#857F72;
+
+  --rui-warm-grey-600:#625D52;
+
+  --rui-warm-grey-700:#504A40;
+
+  --rui-warm-grey-800:#423D33;
+
+  --rui-warm-grey-900:#27241D;
+
+
+
+  /*Blue*/
+  --rui-blue-000:#DCEEFB;
+
+  --rui-blue-100:#B6E0FE;
+
+  --rui-blue-200:#84C5F4;
+
+  --rui-blue-300:#62B0E8;
+
+  --rui-blue-400:#4098D7;
+
+  --rui-blue-500:#2680C2;
+
+  --rui-blue-600:#186FAF;
+
+  --rui-blue-700:#0F609B;
+
+  --rui-blue-800:#0A558C;
+
+  --rui-blue-900:#003E6B;
+
+
+
+  /*Blue (Vivid)*/
+  --rui-blue-vivid-000:#E6F6FF;
+
+  --rui-blue-vivid-100:#BAE3FF;
+
+  --rui-blue-vivid-200:#7CC4FA;
+
+  --rui-blue-vivid-300:#47A3F3;
+
+  --rui-blue-vivid-400:#2186EB;
+
+  --rui-blue-vivid-500:#0967D2;
+
+  --rui-blue-vivid-600:#0552B5;
+
+  --rui-blue-vivid-700:#03449E;
+
+  --rui-blue-vivid-800:#01337D;
+
+  --rui-blue-vivid-900:#002159;
+
+
+
+  /*Indigo*/
+  --rui-indigo-000:#E0E8F9;
+
+  --rui-indigo-100:#BED0F7;
+
+  --rui-indigo-200:#98AEEB;
+
+  --rui-indigo-300:#7B93DB;
+
+  --rui-indigo-400:#647ACB;
+
+  --rui-indigo-500:#4C63B6;
+
+  --rui-indigo-600:#4055A8;
+
+  --rui-indigo-700:#35469C;
+
+  --rui-indigo-800:#2D3A8C;
+
+  --rui-indigo-900:#19216C;
+
+
+
+  /*Indigo (Vivid)*/
+  --rui-indigo-vivid-000:#D9E8FF;
+
+  --rui-indigo-vivid-100:#B0D0FF;
+
+  --rui-indigo-vivid-200:#88B1FC;
+
+  --rui-indigo-vivid-300:#5E8AEE;
+
+  --rui-indigo-vivid-400:#3A66DB;
+
+  --rui-indigo-vivid-500:#2251CC;
+
+  --rui-indigo-vivid-600:#1D3DBF;
+
+  --rui-indigo-vivid-700:#132DAD;
+
+  --rui-indigo-vivid-800:#0B1D96;
+
+  --rui-indigo-vivid-900:#061178;
+
+
+
+  /*Cyan*/
+  --rui-cyan-000:#E0FCFF;
+
+  --rui-cyan-100:#BEF8FD;
+
+  --rui-cyan-200:#87EAF2;
+
+  --rui-cyan-300:#54D1DB;
+
+  --rui-cyan-400:#38BEC9;
+
+  --rui-cyan-500:#2CB1BC;
+
+  --rui-cyan-600:#14919B;
+
+  --rui-cyan-700:#0E7C86;
+
+  --rui-cyan-800:#0A6C74;
+
+  --rui-cyan-900:#044E54;
+
+
+
+  /*Cyan (Vivid)*/
+  --rui-cyan-vivid-000:#E1FCF8;
+
+  --rui-cyan-vivid-100:#C1FEF6;
+
+  --rui-cyan-vivid-200:#92FDF2;
+
+  --rui-cyan-vivid-300:#62F4EB;
+
+  --rui-cyan-vivid-400:#3AE7E1;
+
+  --rui-cyan-vivid-500:#1CD4D4;
+
+  --rui-cyan-vivid-600:#0FB5BA;
+
+  --rui-cyan-vivid-700:#099AA4;
+
+  --rui-cyan-vivid-800:#07818F;
+
+  --rui-cyan-vivid-900:#05606E;
+
+
+
+  /*Light Blue*/
+  --rui-light-blue-000:#EBF8FF;
+
+  --rui-light-blue-100:#D1EEFC;
+
+  --rui-light-blue-200:#A7D8F0;
+
+  --rui-light-blue-300:#7CC1E4;
+
+  --rui-light-blue-400:#55AAD4;
+
+  --rui-light-blue-500:#3994C1;
+
+  --rui-light-blue-600:#2D83AE;
+
+  --rui-light-blue-700:#1D6F98;
+
+  --rui-light-blue-800:#166086;
+
+  --rui-light-blue-900:#0B4F71;
+
+
+
+  /*Light Blue (Vivid)*/
+  --rui-light-blue-vivid-000:#E3F8FF;
+
+  --rui-light-blue-vivid-100:#B3ECFF;
+
+  --rui-light-blue-vivid-200:#81DEFD;
+
+  --rui-light-blue-vivid-300:#5ED0FA;
+
+  --rui-light-blue-vivid-400:#40C3F7;
+
+  --rui-light-blue-vivid-500:#2BB0ED;
+
+  --rui-light-blue-vivid-600:#1992D4;
+
+  --rui-light-blue-vivid-700:#127FBF;
+
+  --rui-light-blue-vivid-800:#0B69A3;
+
+  --rui-light-blue-vivid-900:#035388;
+
+
+
+  /*Purple*/
+  --rui-purple-000:#EAE2F8;
+
+  --rui-purple-100:#CFBCF2;
+
+  --rui-purple-200:#A081D9;
+
+  --rui-purple-300:#8662C7;
+
+  --rui-purple-400:#724BB7;
+
+  --rui-purple-500:#653CAD;
+
+  --rui-purple-600:#51279B;
+
+  --rui-purple-700:#421987;
+
+  --rui-purple-800:#34126F;
+
+  --rui-purple-900:#240754;
+
+
+
+  /*Purple (Vivid)*/
+  --rui-purple-vivid-000:#F2EBFE;
+
+  --rui-purple-vivid-100:#DAC4FF;
+
+  --rui-purple-vivid-200:#B990FF;
+
+  --rui-purple-vivid-300:#A368FC;
+
+  --rui-purple-vivid-400:#9446ED;
+
+  --rui-purple-vivid-500:#8719E0;
+
+  --rui-purple-vivid-600:#7A0ECC;
+
+  --rui-purple-vivid-700:#690CB0;
+
+  --rui-purple-vivid-800:#580A94;
+
+  --rui-purple-vivid-900:#44056E;
+
+
+
+  /*Red*/
+  --rui-red-000:#FFEEEE;
+
+  --rui-red-100:#FACDCD;
+
+  --rui-red-200:#F29B9B;
+
+  --rui-red-300:#E66A6A;
+
+  --rui-red-400:#D64545;
+
+  --rui-red-500:#BA2525;
+
+  --rui-red-600:#A61B1B;
+
+  --rui-red-700:#911111;
+
+  --rui-red-800:#780A0A;
+
+  --rui-red-900:#610404;
+
+
+
+  /*Red (Vivid)*/
+  --rui-red-vivid-000:#FFE3E3;
+
+  --rui-red-vivid-100:#FFBDBD;
+
+  --rui-red-vivid-200:#FF9B9B;
+
+  --rui-red-vivid-300:#F86A6A;
+
+  --rui-red-vivid-400:#EF4E4E;
+
+  --rui-red-vivid-500:#E12D39;
+
+  --rui-red-vivid-600:#CF1124;
+
+  --rui-red-vivid-700:#AB091E;
+
+  --rui-red-vivid-800:#8A041A;
+
+  --rui-red-vivid-900:#610316;
+
+
+
+  /*Pink*/
+  --rui-pink-000:#FFEEEE;
+
+  --rui-pink-100:#FACDCD;
+
+  --rui-pink-200:#F29B9B;
+
+  --rui-pink-300:#E66A6A;
+
+  --rui-pink-400:#D64545;
+
+  --rui-pink-500:#BA2525;
+
+  --rui-pink-600:#A61B1B;
+
+  --rui-pink-700:#911111;
+
+  --rui-pink-800:#780A0A;
+
+  --rui-pink-900:#610404;
+
+
+
+  /*Pink (Vivid)*/
+  --rui-pink-vivid-000:#FFE3E3;
+
+  --rui-pink-vivid-100:#FFBDBD;
+
+  --rui-pink-vivid-200:#FF9B9B;
+
+  --rui-pink-vivid-300:#F86A6A;
+
+  --rui-pink-vivid-400:#EF4E4E;
+
+  --rui-pink-vivid-500:#E12D39;
+
+  --rui-pink-vivid-600:#CF1124;
+
+  --rui-pink-vivid-700:#AB091E;
+
+  --rui-pink-vivid-800:#8A041A;
+
+  --rui-pink-vivid-900:#610316;
+
+
+
+  /*Yellow*/
+  --rui-yellow-000:#FFFAEB;
+
+  --rui-yellow-100:#FCEFC7;
+
+  --rui-yellow-200:#F8E3A3;
+
+  --rui-yellow-300:#F9DA8B;
+
+  --rui-yellow-400:#F7D070;
+
+  --rui-yellow-500:#E9B949;
+
+  --rui-yellow-600:#C99A2E;
+
+  --rui-yellow-700:#A27C1A;
+
+  --rui-yellow-800:#7C5E10;
+
+  --rui-yellow-900:#513C06;
+
+
+
+  /*Yellow (Vivid)*/
+  --rui-yellow-vivid-000:#FFFBEA;
+
+  --rui-yellow-vivid-100:#FFF3C4;
+
+  --rui-yellow-vivid-200:#FCE588;
+
+  --rui-yellow-vivid-300:#FADB5F;
+
+  --rui-yellow-vivid-400:#F7C948;
+
+  --rui-yellow-vivid-500:#F0B429;
+
+  --rui-yellow-vivid-600:#DE911D;
+
+  --rui-yellow-vivid-700:#CB6E17;
+
+  --rui-yellow-vivid-800:#B44D12;
+
+  --rui-yellow-vivid-900:#8D2B0B;
+
+
+
+  /*Orange*/
+  --rui-orange-000:#FFEFE6;
+
+  --rui-orange-100:#FFD3BA;
+
+  --rui-orange-200:#FAB38B;
+
+  --rui-orange-300:#EF8E58;
+
+  --rui-orange-400:#E67635;
+
+  --rui-orange-500:#C65D21;
+
+  --rui-orange-600:#AB4E19;
+
+  --rui-orange-700:#8C3D10;
+
+  --rui-orange-800:#77340D;
+
+  --rui-orange-900:#572508;
+
+
+  /*Orange (Vivid)*/
+  --rui-orange-vivid-000:#FFE3E3;
+
+  --rui-orange-vivid-100:#FFBDBD;
+
+  --rui-orange-vivid-200:#FF9B9B;
+
+  --rui-orange-vivid-300:#F86A6A;
+
+  --rui-orange-vivid-400:#EF4E4E;
+
+  --rui-orange-vivid-500:#E12D39;
+
+  --rui-orange-vivid-600:#CF1124;
+
+  --rui-orange-vivid-700:#AB091E;
+
+  --rui-orange-vivid-800:#8A041A;
+
+  --rui-orange-vivid-900:#610316;
+}

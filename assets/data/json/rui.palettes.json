@@ -187,43 +187,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#E3F9E5"
+          "hexValue": "#E3F9E5"
         },
         {
           "weight": "100",
-          "hexColor": "#C1EAC5"
+          "hexValue": "#C1EAC5"
         },
         {
           "weight": "200",
-          "hexColor": "#A3D9A5"
+          "hexValue": "#A3D9A5"
         },
         {
           "weight": "300",
-          "hexColor": "#7BC47F"
+          "hexValue": "#7BC47F"
         },
         {
           "weight": "400",
-          "hexColor": "#57AE5B"
+          "hexValue": "#57AE5B"
         },
         {
           "weight": "500",
-          "hexColor": "#3F9142"
+          "hexValue": "#3F9142"
         },
         {
           "weight": "600",
-          "hexColor": "#2F8132"
+          "hexValue": "#2F8132"
         },
         {
           "weight": "700",
-          "hexColor": "#207227"
+          "hexValue": "#207227"
         },
         {
           "weight": "800",
-          "hexColor": "#0E5814"
+          "hexValue": "#0E5814"
         },
         {
           "weight": "900",
-          "hexColor": "#05400A"
+          "hexValue": "#05400A"
         }
       ]
     },
@@ -232,43 +232,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#EFFCF6"
+          "hexValue": "#EFFCF6"
         },
         {
           "weight": "100",
-          "hexColor": "#C6F7E2"
+          "hexValue": "#C6F7E2"
         },
         {
           "weight": "200",
-          "hexColor": "#8EEDC7"
+          "hexValue": "#8EEDC7"
         },
         {
           "weight": "300",
-          "hexColor": "#65D6AD"
+          "hexValue": "#65D6AD"
         },
         {
           "weight": "400",
-          "hexColor": "#3EBD93"
+          "hexValue": "#3EBD93"
         },
         {
           "weight": "500",
-          "hexColor": "#27AB83"
+          "hexValue": "#27AB83"
         },
         {
           "weight": "600",
-          "hexColor": "#199473"
+          "hexValue": "#199473"
         },
         {
           "weight": "700",
-          "hexColor": "#147D64"
+          "hexValue": "#147D64"
         },
         {
           "weight": "800",
-          "hexColor": "#0C6B58"
+          "hexValue": "#0C6B58"
         },
         {
           "weight": "900",
-          "hexColor": "#014D40"
+          "hexValue": "#014D40"
         }
       ]
     },
@@ -277,43 +277,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#F2FDE0"
+          "hexValue": "#F2FDE0"
         },
         {
           "weight": "100",
-          "hexColor": "#E2F7C2"
+          "hexValue": "#E2F7C2"
         },
         {
           "weight": "200",
-          "hexColor": "#C7EA8F"
+          "hexValue": "#C7EA8F"
         },
         {
           "weight": "300",
-          "hexColor": "#ABDB5E"
+          "hexValue": "#ABDB5E"
         },
         {
           "weight": "400",
-          "hexColor": "#94C843"
+          "hexValue": "#94C843"
         },
         {
           "weight": "500",
-          "hexColor": "#7BB026"
+          "hexValue": "#7BB026"
         },
         {
           "weight": "600",
-          "hexColor": "#63921A"
+          "hexValue": "#63921A"
         },
         {
           "weight": "700",
-          "hexColor": "#507712"
+          "hexValue": "#507712"
         },
         {
           "weight": "800",
-          "hexColor": "#42600C"
+          "hexValue": "#42600C"
         },
         {
           "weight": "900",
-          "hexColor": "#2B4005"
+          "hexValue": "#2B4005"
         }
       ]
     },
@@ -322,43 +322,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#F8FFED"
+          "hexValue": "#F8FFED"
         },
         {
           "weight": "100",
-          "hexColor": "#E6FFBF"
+          "hexValue": "#E6FFBF"
         },
         {
           "weight": "200",
-          "hexColor": "#CAFF84"
+          "hexValue": "#CAFF84"
         },
         {
           "weight": "300",
-          "hexColor": "#AFF75C"
+          "hexValue": "#AFF75C"
         },
         {
           "weight": "400",
-          "hexColor": "#8DED2D"
+          "hexValue": "#8DED2D"
         },
         {
           "weight": "500",
-          "hexColor": "#6CD410"
+          "hexValue": "#6CD410"
         },
         {
           "weight": "600",
-          "hexColor": "#5CB70B"
+          "hexValue": "#5CB70B"
         },
         {
           "weight": "700",
-          "hexColor": "#399709"
+          "hexValue": "#399709"
         },
         {
           "weight": "800",
-          "hexColor": "#2E7B06"
+          "hexValue": "#2E7B06"
         },
         {
           "weight": "900",
-          "hexColor": "#1E5303"
+          "hexValue": "#1E5303"
         }
       ]
     },
@@ -367,43 +367,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#F0F4F8"
+          "hexValue": "#F0F4F8"
         },
         {
           "weight": "100",
-          "hexColor": "#D9E2EC"
+          "hexValue": "#D9E2EC"
         },
         {
           "weight": "200",
-          "hexColor": "#BCCCDC"
+          "hexValue": "#BCCCDC"
         },
         {
           "weight": "300",
-          "hexColor": "#9FB3C8"
+          "hexValue": "#9FB3C8"
         },
         {
           "weight": "400",
-          "hexColor": "#829AB1"
+          "hexValue": "#829AB1"
         },
         {
           "weight": "500",
-          "hexColor": "#627D98"
+          "hexValue": "#627D98"
         },
         {
           "weight": "600",
-          "hexColor": "#486581"
+          "hexValue": "#486581"
         },
         {
           "weight": "700",
-          "hexColor": "#334E68"
+          "hexValue": "#334E68"
         },
         {
           "weight": "800",
-          "hexColor": "#243B53"
+          "hexValue": "#243B53"
         },
         {
           "weight": "900",
-          "hexColor": "#102A43"
+          "hexValue": "#102A43"
         }
       ]
     },
@@ -412,43 +412,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#F7F7F7"
+          "hexValue": "#F7F7F7"
         },
         {
           "weight": "100",
-          "hexColor": "#E1E1E1"
+          "hexValue": "#E1E1E1"
         },
         {
           "weight": "200",
-          "hexColor": "#CFCFCF"
+          "hexValue": "#CFCFCF"
         },
         {
           "weight": "300",
-          "hexColor": "#B1B1B1"
+          "hexValue": "#B1B1B1"
         },
         {
           "weight": "400",
-          "hexColor": "#9E9E9E"
+          "hexValue": "#9E9E9E"
         },
         {
           "weight": "500",
-          "hexColor": "#7E7E7E"
+          "hexValue": "#7E7E7E"
         },
         {
           "weight": "600",
-          "hexColor": "#626262"
+          "hexValue": "#626262"
         },
         {
           "weight": "700",
-          "hexColor": "#515151"
+          "hexValue": "#515151"
         },
         {
           "weight": "800",
-          "hexColor": "#3B3B3B"
+          "hexValue": "#3B3B3B"
         },
         {
           "weight": "900",
-          "hexColor": "#222222"
+          "hexValue": "#222222"
         }
       ]
     },
@@ -457,43 +457,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#F5F7FA"
+          "hexValue": "#F5F7FA"
         },
         {
           "weight": "100",
-          "hexColor": "#E4E7EB"
+          "hexValue": "#E4E7EB"
         },
         {
           "weight": "200",
-          "hexColor": "#CBD2D9"
+          "hexValue": "#CBD2D9"
         },
         {
           "weight": "300",
-          "hexColor": "#9AA5B1"
+          "hexValue": "#9AA5B1"
         },
         {
           "weight": "400",
-          "hexColor": "#7B8794"
+          "hexValue": "#7B8794"
         },
         {
           "weight": "500",
-          "hexColor": "#616E7C"
+          "hexValue": "#616E7C"
         },
         {
           "weight": "600",
-          "hexColor": "#52606D"
+          "hexValue": "#52606D"
         },
         {
           "weight": "700",
-          "hexColor": "#3E4C59"
+          "hexValue": "#3E4C59"
         },
         {
           "weight": "800",
-          "hexColor": "#323F4B"
+          "hexValue": "#323F4B"
         },
         {
           "weight": "900",
-          "hexColor": "#1F2933"
+          "hexValue": "#1F2933"
         }
       ]
     },
@@ -502,43 +502,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FAF9F7"
+          "hexValue": "#FAF9F7"
         },
         {
           "weight": "100",
-          "hexColor": "#E8E6E1"
+          "hexValue": "#E8E6E1"
         },
         {
           "weight": "200",
-          "hexColor": "#D3CEC4"
+          "hexValue": "#D3CEC4"
         },
         {
           "weight": "300",
-          "hexColor": "#B8B2A7"
+          "hexValue": "#B8B2A7"
         },
         {
           "weight": "400",
-          "hexColor": "#A39E93"
+          "hexValue": "#A39E93"
         },
         {
           "weight": "500",
-          "hexColor": "#857F72"
+          "hexValue": "#857F72"
         },
         {
           "weight": "600",
-          "hexColor": "#625D52"
+          "hexValue": "#625D52"
         },
         {
           "weight": "700",
-          "hexColor": "#504A40"
+          "hexValue": "#504A40"
         },
         {
           "weight": "800",
-          "hexColor": "#423D33"
+          "hexValue": "#423D33"
         },
         {
           "weight": "900",
-          "hexColor": "#27241D"
+          "hexValue": "#27241D"
         }
       ]
     },
@@ -547,43 +547,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#DCEEFB"
+          "hexValue": "#DCEEFB"
         },
         {
           "weight": "100",
-          "hexColor": "#B6E0FE"
+          "hexValue": "#B6E0FE"
         },
         {
           "weight": "200",
-          "hexColor": "#84C5F4"
+          "hexValue": "#84C5F4"
         },
         {
           "weight": "300",
-          "hexColor": "#62B0E8"
+          "hexValue": "#62B0E8"
         },
         {
           "weight": "400",
-          "hexColor": "#4098D7"
+          "hexValue": "#4098D7"
         },
         {
           "weight": "500",
-          "hexColor": "#2680C2"
+          "hexValue": "#2680C2"
         },
         {
           "weight": "600",
-          "hexColor": "#186FAF"
+          "hexValue": "#186FAF"
         },
         {
           "weight": "700",
-          "hexColor": "#0F609B"
+          "hexValue": "#0F609B"
         },
         {
           "weight": "800",
-          "hexColor": "#0A558C"
+          "hexValue": "#0A558C"
         },
         {
           "weight": "900",
-          "hexColor": "#003E6B"
+          "hexValue": "#003E6B"
         }
       ]
     },
@@ -592,43 +592,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#E6F6FF"
+          "hexValue": "#E6F6FF"
         },
         {
           "weight": "100",
-          "hexColor": "#BAE3FF"
+          "hexValue": "#BAE3FF"
         },
         {
           "weight": "200",
-          "hexColor": "#7CC4FA"
+          "hexValue": "#7CC4FA"
         },
         {
           "weight": "300",
-          "hexColor": "#47A3F3"
+          "hexValue": "#47A3F3"
         },
         {
           "weight": "400",
-          "hexColor": "#2186EB"
+          "hexValue": "#2186EB"
         },
         {
           "weight": "500",
-          "hexColor": "#0967D2"
+          "hexValue": "#0967D2"
         },
         {
           "weight": "600",
-          "hexColor": "#0552B5"
+          "hexValue": "#0552B5"
         },
         {
           "weight": "700",
-          "hexColor": "#03449E"
+          "hexValue": "#03449E"
         },
         {
           "weight": "800",
-          "hexColor": "#01337D"
+          "hexValue": "#01337D"
         },
         {
           "weight": "900",
-          "hexColor": "#002159"
+          "hexValue": "#002159"
         }
       ]
     },
@@ -637,43 +637,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#E0E8F9"
+          "hexValue": "#E0E8F9"
         },
         {
           "weight": "100",
-          "hexColor": "#BED0F7"
+          "hexValue": "#BED0F7"
         },
         {
           "weight": "200",
-          "hexColor": "#98AEEB"
+          "hexValue": "#98AEEB"
         },
         {
           "weight": "300",
-          "hexColor": "#7B93DB"
+          "hexValue": "#7B93DB"
         },
         {
           "weight": "400",
-          "hexColor": "#647ACB"
+          "hexValue": "#647ACB"
         },
         {
           "weight": "500",
-          "hexColor": "#4C63B6"
+          "hexValue": "#4C63B6"
         },
         {
           "weight": "600",
-          "hexColor": "#4055A8"
+          "hexValue": "#4055A8"
         },
         {
           "weight": "700",
-          "hexColor": "#35469C"
+          "hexValue": "#35469C"
         },
         {
           "weight": "800",
-          "hexColor": "#2D3A8C"
+          "hexValue": "#2D3A8C"
         },
         {
           "weight": "900",
-          "hexColor": "#19216C"
+          "hexValue": "#19216C"
         }
       ]
     },
@@ -682,43 +682,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#D9E8FF"
+          "hexValue": "#D9E8FF"
         },
         {
           "weight": "100",
-          "hexColor": "#B0D0FF"
+          "hexValue": "#B0D0FF"
         },
         {
           "weight": "200",
-          "hexColor": "#88B1FC"
+          "hexValue": "#88B1FC"
         },
         {
           "weight": "300",
-          "hexColor": "#5E8AEE"
+          "hexValue": "#5E8AEE"
         },
         {
           "weight": "400",
-          "hexColor": "#3A66DB"
+          "hexValue": "#3A66DB"
         },
         {
           "weight": "500",
-          "hexColor": "#2251CC"
+          "hexValue": "#2251CC"
         },
         {
           "weight": "600",
-          "hexColor": "#1D3DBF"
+          "hexValue": "#1D3DBF"
         },
         {
           "weight": "700",
-          "hexColor": "#132DAD"
+          "hexValue": "#132DAD"
         },
         {
           "weight": "800",
-          "hexColor": "#0B1D96"
+          "hexValue": "#0B1D96"
         },
         {
           "weight": "900",
-          "hexColor": "#061178"
+          "hexValue": "#061178"
         }
       ]
     },
@@ -727,43 +727,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#E0FCFF"
+          "hexValue": "#E0FCFF"
         },
         {
           "weight": "100",
-          "hexColor": "#BEF8FD"
+          "hexValue": "#BEF8FD"
         },
         {
           "weight": "200",
-          "hexColor": "#87EAF2"
+          "hexValue": "#87EAF2"
         },
         {
           "weight": "300",
-          "hexColor": "#54D1DB"
+          "hexValue": "#54D1DB"
         },
         {
           "weight": "400",
-          "hexColor": "#38BEC9"
+          "hexValue": "#38BEC9"
         },
         {
           "weight": "500",
-          "hexColor": "#2CB1BC"
+          "hexValue": "#2CB1BC"
         },
         {
           "weight": "600",
-          "hexColor": "#14919B"
+          "hexValue": "#14919B"
         },
         {
           "weight": "700",
-          "hexColor": "#0E7C86"
+          "hexValue": "#0E7C86"
         },
         {
           "weight": "800",
-          "hexColor": "#0A6C74"
+          "hexValue": "#0A6C74"
         },
         {
           "weight": "900",
-          "hexColor": "#044E54"
+          "hexValue": "#044E54"
         }
       ]
     },
@@ -772,43 +772,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#E1FCF8"
+          "hexValue": "#E1FCF8"
         },
         {
           "weight": "100",
-          "hexColor": "#C1FEF6"
+          "hexValue": "#C1FEF6"
         },
         {
           "weight": "200",
-          "hexColor": "#92FDF2"
+          "hexValue": "#92FDF2"
         },
         {
           "weight": "300",
-          "hexColor": "#62F4EB"
+          "hexValue": "#62F4EB"
         },
         {
           "weight": "400",
-          "hexColor": "#3AE7E1"
+          "hexValue": "#3AE7E1"
         },
         {
           "weight": "500",
-          "hexColor": "#1CD4D4"
+          "hexValue": "#1CD4D4"
         },
         {
           "weight": "600",
-          "hexColor": "#0FB5BA"
+          "hexValue": "#0FB5BA"
         },
         {
           "weight": "700",
-          "hexColor": "#099AA4"
+          "hexValue": "#099AA4"
         },
         {
           "weight": "800",
-          "hexColor": "#07818F"
+          "hexValue": "#07818F"
         },
         {
           "weight": "900",
-          "hexColor": "#05606E"
+          "hexValue": "#05606E"
         }
       ]
     },
@@ -817,43 +817,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#EBF8FF"
+          "hexValue": "#EBF8FF"
         },
         {
           "weight": "100",
-          "hexColor": "#D1EEFC"
+          "hexValue": "#D1EEFC"
         },
         {
           "weight": "200",
-          "hexColor": "#A7D8F0"
+          "hexValue": "#A7D8F0"
         },
         {
           "weight": "300",
-          "hexColor": "#7CC1E4"
+          "hexValue": "#7CC1E4"
         },
         {
           "weight": "400",
-          "hexColor": "#55AAD4"
+          "hexValue": "#55AAD4"
         },
         {
           "weight": "500",
-          "hexColor": "#3994C1"
+          "hexValue": "#3994C1"
         },
         {
           "weight": "600",
-          "hexColor": "#2D83AE"
+          "hexValue": "#2D83AE"
         },
         {
           "weight": "700",
-          "hexColor": "#1D6F98"
+          "hexValue": "#1D6F98"
         },
         {
           "weight": "800",
-          "hexColor": "#166086"
+          "hexValue": "#166086"
         },
         {
           "weight": "900",
-          "hexColor": "#0B4F71"
+          "hexValue": "#0B4F71"
         }
       ]
     },
@@ -862,43 +862,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#E3F8FF"
+          "hexValue": "#E3F8FF"
         },
         {
           "weight": "100",
-          "hexColor": "#B3ECFF"
+          "hexValue": "#B3ECFF"
         },
         {
           "weight": "200",
-          "hexColor": "#81DEFD"
+          "hexValue": "#81DEFD"
         },
         {
           "weight": "300",
-          "hexColor": "#5ED0FA"
+          "hexValue": "#5ED0FA"
         },
         {
           "weight": "400",
-          "hexColor": "#40C3F7"
+          "hexValue": "#40C3F7"
         },
         {
           "weight": "500",
-          "hexColor": "#2BB0ED"
+          "hexValue": "#2BB0ED"
         },
         {
           "weight": "600",
-          "hexColor": "#1992D4"
+          "hexValue": "#1992D4"
         },
         {
           "weight": "700",
-          "hexColor": "#127FBF"
+          "hexValue": "#127FBF"
         },
         {
           "weight": "800",
-          "hexColor": "#0B69A3"
+          "hexValue": "#0B69A3"
         },
         {
           "weight": "900",
-          "hexColor": "#035388"
+          "hexValue": "#035388"
         }
       ]
     },
@@ -907,43 +907,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#EAE2F8"
+          "hexValue": "#EAE2F8"
         },
         {
           "weight": "100",
-          "hexColor": "#CFBCF2"
+          "hexValue": "#CFBCF2"
         },
         {
           "weight": "200",
-          "hexColor": "#A081D9"
+          "hexValue": "#A081D9"
         },
         {
           "weight": "300",
-          "hexColor": "#8662C7"
+          "hexValue": "#8662C7"
         },
         {
           "weight": "400",
-          "hexColor": "#724BB7"
+          "hexValue": "#724BB7"
         },
         {
           "weight": "500",
-          "hexColor": "#653CAD"
+          "hexValue": "#653CAD"
         },
         {
           "weight": "600",
-          "hexColor": "#51279B"
+          "hexValue": "#51279B"
         },
         {
           "weight": "700",
-          "hexColor": "#421987"
+          "hexValue": "#421987"
         },
         {
           "weight": "800",
-          "hexColor": "#34126F"
+          "hexValue": "#34126F"
         },
         {
           "weight": "900",
-          "hexColor": "#240754"
+          "hexValue": "#240754"
         }
       ]
     },
@@ -952,43 +952,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#F2EBFE"
+          "hexValue": "#F2EBFE"
         },
         {
           "weight": "100",
-          "hexColor": "#DAC4FF"
+          "hexValue": "#DAC4FF"
         },
         {
           "weight": "200",
-          "hexColor": "#B990FF"
+          "hexValue": "#B990FF"
         },
         {
           "weight": "300",
-          "hexColor": "#A368FC"
+          "hexValue": "#A368FC"
         },
         {
           "weight": "400",
-          "hexColor": "#9446ED"
+          "hexValue": "#9446ED"
         },
         {
           "weight": "500",
-          "hexColor": "#8719E0"
+          "hexValue": "#8719E0"
         },
         {
           "weight": "600",
-          "hexColor": "#7A0ECC"
+          "hexValue": "#7A0ECC"
         },
         {
           "weight": "700",
-          "hexColor": "#690CB0"
+          "hexValue": "#690CB0"
         },
         {
           "weight": "800",
-          "hexColor": "#580A94"
+          "hexValue": "#580A94"
         },
         {
           "weight": "900",
-          "hexColor": "#44056E"
+          "hexValue": "#44056E"
         }
       ]
     },
@@ -997,43 +997,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFEEEE"
+          "hexValue": "#FFEEEE"
         },
         {
           "weight": "100",
-          "hexColor": "#FACDCD"
+          "hexValue": "#FACDCD"
         },
         {
           "weight": "200",
-          "hexColor": "#F29B9B"
+          "hexValue": "#F29B9B"
         },
         {
           "weight": "300",
-          "hexColor": "#E66A6A"
+          "hexValue": "#E66A6A"
         },
         {
           "weight": "400",
-          "hexColor": "#D64545"
+          "hexValue": "#D64545"
         },
         {
           "weight": "500",
-          "hexColor": "#BA2525"
+          "hexValue": "#BA2525"
         },
         {
           "weight": "600",
-          "hexColor": "#A61B1B"
+          "hexValue": "#A61B1B"
         },
         {
           "weight": "700",
-          "hexColor": "#911111"
+          "hexValue": "#911111"
         },
         {
           "weight": "800",
-          "hexColor": "#780A0A"
+          "hexValue": "#780A0A"
         },
         {
           "weight": "900",
-          "hexColor": "#610404"
+          "hexValue": "#610404"
         }
       ]
     },
@@ -1042,43 +1042,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFE3E3"
+          "hexValue": "#FFE3E3"
         },
         {
           "weight": "100",
-          "hexColor": "#FFBDBD"
+          "hexValue": "#FFBDBD"
         },
         {
           "weight": "200",
-          "hexColor": "#FF9B9B"
+          "hexValue": "#FF9B9B"
         },
         {
           "weight": "300",
-          "hexColor": "#F86A6A"
+          "hexValue": "#F86A6A"
         },
         {
           "weight": "400",
-          "hexColor": "#EF4E4E"
+          "hexValue": "#EF4E4E"
         },
         {
           "weight": "500",
-          "hexColor": "#E12D39"
+          "hexValue": "#E12D39"
         },
         {
           "weight": "600",
-          "hexColor": "#CF1124"
+          "hexValue": "#CF1124"
         },
         {
           "weight": "700",
-          "hexColor": "#AB091E"
+          "hexValue": "#AB091E"
         },
         {
           "weight": "800",
-          "hexColor": "#8A041A"
+          "hexValue": "#8A041A"
         },
         {
           "weight": "900",
-          "hexColor": "#610316"
+          "hexValue": "#610316"
         }
       ]
     },
@@ -1087,43 +1087,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFEEEE"
+          "hexValue": "#FFE0F0"
         },
         {
           "weight": "100",
-          "hexColor": "#FACDCD"
+          "hexValue": "#FAB8D9"
         },
         {
           "weight": "200",
-          "hexColor": "#F29B9B"
+          "hexValue": "#F191C1"
         },
         {
           "weight": "300",
-          "hexColor": "#E66A6A"
+          "hexValue": "#E668A7"
         },
         {
           "weight": "400",
-          "hexColor": "#D64545"
+          "hexValue": "#DA4A91"
         },
         {
           "weight": "500",
-          "hexColor": "#BA2525"
+          "hexValue": "#C42D78"
         },
         {
           "weight": "600",
-          "hexColor": "#A61B1B"
+          "hexValue": "#AD2167"
         },
         {
           "weight": "700",
-          "hexColor": "#911111"
+          "hexValue": "#9B1B5A"
         },
         {
           "weight": "800",
-          "hexColor": "#780A0A"
+          "hexValue": "#781244"
         },
         {
           "weight": "900",
-          "hexColor": "#610404"
+          "hexValue": "#5C0B33"
         }
       ]
     },
@@ -1132,43 +1132,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFE3E3"
+          "hexValue": "#F2EBFE"
         },
         {
           "weight": "100",
-          "hexColor": "#FFBDBD"
+          "hexValue": "#FFBDBD"
         },
         {
           "weight": "200",
-          "hexColor": "#FF9B9B"
+          "hexValue": "#B990FF"
         },
         {
           "weight": "300",
-          "hexColor": "#F86A6A"
+          "hexValue": "#A368FC"
         },
         {
           "weight": "400",
-          "hexColor": "#EF4E4E"
+          "hexValue": "#9446ED"
         },
         {
           "weight": "500",
-          "hexColor": "#E12D39"
+          "hexValue": "#8719E0"
         },
         {
           "weight": "600",
-          "hexColor": "#CF1124"
+          "hexValue": "#7A0ECC"
         },
         {
           "weight": "700",
-          "hexColor": "#AB091E"
+          "hexValue": "#690CB0"
         },
         {
           "weight": "800",
-          "hexColor": "#8A041A"
+          "hexValue": "#580A94"
         },
         {
           "weight": "900",
-          "hexColor": "#610316"
+          "hexValue": "#44056E"
         }
       ]
     },
@@ -1177,43 +1177,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFFAEB"
+          "hexValue": "#FFFAEB"
         },
         {
           "weight": "100",
-          "hexColor": "#FCEFC7"
+          "hexValue": "#FCEFC7"
         },
         {
           "weight": "200",
-          "hexColor": "#F8E3A3"
+          "hexValue": "#F8E3A3"
         },
         {
           "weight": "300",
-          "hexColor": "#F9DA8B"
+          "hexValue": "#F9DA8B"
         },
         {
           "weight": "400",
-          "hexColor": "#F7D070"
+          "hexValue": "#F7D070"
         },
         {
           "weight": "500",
-          "hexColor": "#E9B949"
+          "hexValue": "#E9B949"
         },
         {
           "weight": "600",
-          "hexColor": "#C99A2E"
+          "hexValue": "#C99A2E"
         },
         {
           "weight": "700",
-          "hexColor": "#A27C1A"
+          "hexValue": "#A27C1A"
         },
         {
           "weight": "800",
-          "hexColor": "#7C5E10"
+          "hexValue": "#7C5E10"
         },
         {
           "weight": "900",
-          "hexColor": "#513C06"
+          "hexValue": "#513C06"
         }
       ]
     },
@@ -1222,43 +1222,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFFBEA"
+          "hexValue": "#FFFBEA"
         },
         {
           "weight": "100",
-          "hexColor": "#FFF3C4"
+          "hexValue": "#FFF3C4"
         },
         {
           "weight": "200",
-          "hexColor": "#FCE588"
+          "hexValue": "#FCE588"
         },
         {
           "weight": "300",
-          "hexColor": "#FADB5F"
+          "hexValue": "#FADB5F"
         },
         {
           "weight": "400",
-          "hexColor": "#F7C948"
+          "hexValue": "#F7C948"
         },
         {
           "weight": "500",
-          "hexColor": "#F0B429"
+          "hexValue": "#F0B429"
         },
         {
           "weight": "600",
-          "hexColor": "#DE911D"
+          "hexValue": "#DE911D"
         },
         {
           "weight": "700",
-          "hexColor": "#CB6E17"
+          "hexValue": "#CB6E17"
         },
         {
           "weight": "800",
-          "hexColor": "#B44D12"
+          "hexValue": "#B44D12"
         },
         {
           "weight": "900",
-          "hexColor": "#8D2B0B"
+          "hexValue": "#8D2B0B"
         }
       ]
     },
@@ -1267,43 +1267,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFEFE6"
+          "hexValue": "#FFEFE6"
         },
         {
           "weight": "100",
-          "hexColor": "#FFD3BA"
+          "hexValue": "#FFD3BA"
         },
         {
           "weight": "200",
-          "hexColor": "#FAB38B"
+          "hexValue": "#FAB38B"
         },
         {
           "weight": "300",
-          "hexColor": "#EF8E58"
+          "hexValue": "#EF8E58"
         },
         {
           "weight": "400",
-          "hexColor": "#E67635"
+          "hexValue": "#E67635"
         },
         {
           "weight": "500",
-          "hexColor": "#C65D21"
+          "hexValue": "#C65D21"
         },
         {
           "weight": "600",
-          "hexColor": "#AB4E19"
+          "hexValue": "#AB4E19"
         },
         {
           "weight": "700",
-          "hexColor": "#8C3D10"
+          "hexValue": "#8C3D10"
         },
         {
           "weight": "800",
-          "hexColor": "#77340D"
+          "hexValue": "#77340D"
         },
         {
           "weight": "900",
-          "hexColor": "#572508"
+          "hexValue": "#572508"
         }
       ]
     },
@@ -1312,43 +1312,43 @@
       "shades": [
         {
           "weight": "000",
-          "hexColor": "#FFE3E3"
+          "hexValue": "#FFE3E3"
         },
         {
           "weight": "100",
-          "hexColor": "#FFBDBD"
+          "hexValue": "#FFBDBD"
         },
         {
           "weight": "200",
-          "hexColor": "#FF9B9B"
+          "hexValue": "#FF9B9B"
         },
         {
           "weight": "300",
-          "hexColor": "#F86A6A"
+          "hexValue": "#F86A6A"
         },
         {
           "weight": "400",
-          "hexColor": "#EF4E4E"
+          "hexValue": "#EF4E4E"
         },
         {
           "weight": "500",
-          "hexColor": "#E12D39"
+          "hexValue": "#E12D39"
         },
         {
           "weight": "600",
-          "hexColor": "#CF1124"
+          "hexValue": "#CF1124"
         },
         {
           "weight": "700",
-          "hexColor": "#AB091E"
+          "hexValue": "#AB091E"
         },
         {
           "weight": "800",
-          "hexColor": "#8A041A"
+          "hexValue": "#8A041A"
         },
         {
           "weight": "900",
-          "hexColor": "#610316"
+          "hexValue": "#610316"
         }
       ]
     }

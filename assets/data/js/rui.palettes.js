@@ -1132,43 +1132,43 @@ const ruiPalettes = {
       "shades": [
         {
           "weight": "000",
-          "hexValue": "#F2EBFE"
+          "hexValue": "#FEF3F7"
         },
         {
           "weight": "100",
-          "hexValue": "#FFBDBD"
+          "hexValue": "#fff5f7"
         },
         {
           "weight": "200",
-          "hexValue": "#B990FF"
+          "hexValue": "#fed7e2"
         },
         {
           "weight": "300",
-          "hexValue": "#A368FC"
+          "hexValue": "#fbb6ce"
         },
         {
           "weight": "400",
-          "hexValue": "#9446ED"
+          "hexValue": "#f687b3"
         },
         {
           "weight": "500",
-          "hexValue": "#8719E0"
+          "hexValue": "#ed64a6"
         },
         {
           "weight": "600",
-          "hexValue": "#7A0ECC"
+          "hexValue": "#d53f8c"
         },
         {
           "weight": "700",
-          "hexValue": "#690CB0"
+          "hexValue": "#b83280"
         },
         {
           "weight": "800",
-          "hexValue": "#580A94"
+          "hexValue": "#97266d"
         },
         {
           "weight": "900",
-          "hexValue": "#44056E"
+          "hexValue": "#702459"
         }
       ]
     },

@@ -25,20 +25,20 @@ palettes.forEach(palette => {
     swatch = swatches.filter(s => {
       return pColor == s.color;
     });
-    palette.Colors.Primary.push(swatch);
+    palette.Colors.Primary.push(swatch[0]);
   });
   palette.neutralColors = [];
   [palette.neutralColor].forEach(nColor => {
     swatch = swatches.filter(s => {
       return nColor == s.color;
     });
-    palette.Colors.Neutral.push(swatch);
+    palette.Colors.Neutral.push(swatch[0]);
   });
   palette.supportingColors.forEach(sColor => {
     swatch = swatches.filter(s => {
       return sColor == s.color;
     });
-    palette.Colors.Supporting.push(swatch);
+    palette.Colors.Supporting.push(swatch[0]);
   });
 });
 
@@ -61,10 +61,10 @@ $.map(palettes, function (palette) {
                             </div>
                           </div>`;
   // Primary Colors 
-  palette.Colors.Primary.forEach((pColors) => {
-    pColors.forEach(pColor => {
-      // shades table headers
-      let shadeString = `<div id="shades-div" style="display:none;">
+  palette.Colors.Primary.forEach((pColor) => {
+    // pColors.forEach(pColor => {
+    // shades table headers
+    let shadeString = `<div id="shades-div" style="display:none;">
                           <hr class="w-75">
                           <div class="row table-head p-2 w-75 m-auto text-center">
                             <div class="col-12">
@@ -82,9 +82,9 @@ $.map(palettes, function (palette) {
                               <span style="position:relative;top:5px;right:8px;">Swatch</span>
                             </div>
                           </div>`;
-      pColor.shades.forEach((shade) => {
-        // console.log(shade);
-        shadeString += `<div class="row p-2 w-75 m-auto text-center">
+    pColor.shades.forEach((shade) => {
+      // console.log(shade);
+      shadeString += `<div class="row p-2 w-75 m-auto text-center">
                         <div class="col-4">
                           <span style="position:relative;top:5px;">` + shade.weight + `</span>
                         </div>
@@ -96,18 +96,18 @@ $.map(palettes, function (palette) {
                           </a>
                         </div>
                       </div>`;
-      });
+    });
 
-      // shadeString += '</tbody></table>';
+    // shadeString += '</tbody></table>';
 
-      shadeString += '<hr class="w-75"></div>';
+    shadeString += '<hr class="w-75"></div>';
 
-      // <div class="rounded-circle"
-      //                         style="width:25px;height:25px;background-color:` + shade.hexValue + `;border-color:` + shade.hexValue + `">
-      //                       </div>
+    // <div class="rounded-circle"
+    //                         style="width:25px;height:25px;background-color:` + shade.hexValue + `;border-color:` + shade.hexValue + `">
+    //                       </div>
 
-      let hexValue = pColor.shades.filter((shade) => { return shade.weight == "200" })[0].hexValue;
-      colorString += `<div class="row table-content p-2 m-auto text-center w-100 toggler">
+    let hexValue = pColor.shades.filter((shade) => { return shade.weight == "200" })[0].hexValue;
+    colorString += `<div class="row table-content p-2 m-auto text-center w-100 toggler">
                       <div class="col-3">
                         <span style="position:relative;top:5px;">` + pColor.color + `</span>
                       </div>
@@ -123,13 +123,13 @@ $.map(palettes, function (palette) {
                         </a>
                       </div>
                     </div>` + shadeString;
-    });
+    // });
   });
   // Neutral Colors
-  palette.Colors.Neutral.forEach((nColors) => {
-    nColors.forEach(nColor => {
-      // shades table headers
-      let shadeString = `<div id="shades-div" style="display:none;">
+  palette.Colors.Neutral.forEach((nColor) => {
+    // nColors.forEach(nColor => {
+    // shades table headers
+    let shadeString = `<div id="shades-div" style="display:none;">
                           <hr class="w-75">
                           <div class="row table-head p-2 w-75 m-auto text-center">
                             <div class="col-12">
@@ -147,9 +147,9 @@ $.map(palettes, function (palette) {
                               <span style="position:relative;top:5px;right:8px;">Swatch</span>
                             </div>
                           </div>`;
-      nColor.shades.forEach((shade) => {
-        // console.log(shade);
-        shadeString += `<div class="row table-content p-2 w-75 m-auto text-center">
+    nColor.shades.forEach((shade) => {
+      // console.log(shade);
+      shadeString += `<div class="row table-content p-2 w-75 m-auto text-center">
                         <div class="col-4">
                           <span style="position:relative;top:5px;">` + shade.weight + `</span>
                         </div>
@@ -161,18 +161,18 @@ $.map(palettes, function (palette) {
                           </a>
                         </div>
                       </div>`;
-      });
+    });
 
-      // shadeString += '</tbody></table>';
+    // shadeString += '</tbody></table>';
 
-      shadeString += '<hr class="w-75"></div>';
+    shadeString += '<hr class="w-75"></div>';
 
-      // <div class="rounded-circle"
-      //                         style="width:25px;height:25px;background-color:` + shade.hexValue + `;border-color:` + shade.hexValue + `">
-      //                       </div>
+    // <div class="rounded-circle"
+    //                         style="width:25px;height:25px;background-color:` + shade.hexValue + `;border-color:` + shade.hexValue + `">
+    //                       </div>
 
-      let hexValue = nColor.shades.filter((shade) => { return shade.weight == "200" })[0].hexValue;
-      colorString += `<div class="row table-content p-2 m-auto text-center w-100 toggler">
+    let hexValue = nColor.shades.filter((shade) => { return shade.weight == "200" })[0].hexValue;
+    colorString += `<div class="row table-content p-2 m-auto text-center w-100 toggler">
                       <div class="col-3">
                         <span style="position:relative;top:5px;">` + nColor.color + `</span>
                       </div>
@@ -188,13 +188,13 @@ $.map(palettes, function (palette) {
                         </a>
                       </div>
                     </div>` + shadeString;
-    });
+    // });
   });
   // Supporting Colors
-  palette.Colors.Supporting.forEach((sColors) => {
-    sColors.forEach(sColor => {
-      // shades table headers
-      let shadeString = `<div id="shades-div" style="display:none;">
+  palette.Colors.Supporting.forEach((sColor) => {
+    // sColors.forEach(sColor => {
+    // shades table headers
+    let shadeString = `<div id="shades-div" style="display:none;">
                           <hr class="w-75">
                           <div class="row table-head p-2 w-75 m-auto text-center">
                             <div class="col-12">
@@ -212,9 +212,9 @@ $.map(palettes, function (palette) {
                               <span style="position:relative;top:5px;right:8px;">Swatch</span>
                             </div>
                           </div>`;
-      sColor.shades.forEach((shade) => {
-        // console.log(shade);
-        shadeString += `<div class="row table-content p-2 w-75 m-auto text-center">
+    sColor.shades.forEach((shade) => {
+      // console.log(shade);
+      shadeString += `<div class="row table-content p-2 w-75 m-auto text-center">
                         <div class="col-4">
                           <span style="position:relative;top:5px;">` + shade.weight + `</span>
                         </div>
@@ -226,18 +226,18 @@ $.map(palettes, function (palette) {
                           </a>
                         </div>
                       </div>`;
-      });
+    });
 
-      // shadeString += '</tbody></table>';
+    // shadeString += '</tbody></table>';
 
-      shadeString += '<hr class="w-75"></div>';
+    shadeString += '<hr class="w-75"></div>';
 
-      // <div class="rounded-circle"
-      //                         style="width:25px;height:25px;background-color:` + shade.hexValue + `;border-color:` + shade.hexValue + `">
-      //                       </div>
+    // <div class="rounded-circle"
+    //                         style="width:25px;height:25px;background-color:` + shade.hexValue + `;border-color:` + shade.hexValue + `">
+    //                       </div>
 
-      let hexValue = sColor.shades.filter((shade) => { return shade.weight == "200" })[0].hexValue;
-      colorString += `<div class="row table-content p-2 m-auto text-center w-100 toggler">
+    let hexValue = sColor.shades.filter((shade) => { return shade.weight == "200" })[0].hexValue;
+    colorString += `<div class="row table-content p-2 m-auto text-center w-100 toggler">
                       <div class="col-3">
                         <span style="position:relative;top:5px;">` + sColor.color + `</span>
                       </div>
@@ -253,7 +253,7 @@ $.map(palettes, function (palette) {
                         </a>
                       </div>
                     </div>` + shadeString;
-    });
+    // });
   });
   colorString += '</div>';
 
@@ -317,183 +317,3 @@ $(document).ready(function () {
   });
 
 })
-
-// console.log(palettes)
-
-// palettes.forEach(p => {
-//   // console.log(p.Colors.Primary[0])
-//   let selectors = ['background', 'text', 'btn', 'border'];
-//   p.Colors.Primary.forEach(pColor => {
-//     console.log(getClassNames(pColor, 'p', false, selectors))
-//   })
-// })
-
-// functions
-
-// function to get variable names for user based on selections made in the browser
-function getColorVariable(colorObjects, type, isExplicitlyNamed) {
-  let varStrings = [];
-  colorObjects.forEach(color => {
-    let colorId = color.color;
-    let shades = color.shades;
-
-    let varString = '';
-    let i = 0;
-    shades.forEach((shade) => {
-      varString = '--color-';
-      if (!isExplicitlyNamed) {
-        switch (type) {
-          case 'p':
-            varString += 'primary-';
-            break;
-          case 'n':
-            varString += 'neutral-';
-            break;
-          case 's':
-            varString += 'supporting-';
-            break;
-          default:
-            varString += '';
-        }
-
-        varString += i + '-' + shade.weight + ': ' + shade.hexValue + ';';
-
-
-      } else {
-        if (colorId.includes("(Vivid)")) {
-          colorId = colorId.toLowerCase().replace(/\s/g, '').replace('(', '-').replace(')', '');
-          varString += colorId;
-        } else {
-          varString += colorId.toLowerCase() + '-';
-        }
-
-        varString += shade.weight + ': ' + shade.hexValue + ';';
-      }
-
-      varStrings.push(varString);
-    })
-    i += 1;
-  })
-  return varStrings;
-}
-
-// get class names for the following css selectors: background-color, border-color, text color, and a btn class 
-function getClassNames(colorObjects, type, isExplicitlyNamed, classSelectors) {
-
-  let classNames = [];
-  // for each color object provided, create class names for all selectors and shades
-  colorObjects.forEach(color => {
-    let colorId = color.color;
-    let shades = color.shades;
-    // used for designating multiples of a color type when there are more than one
-    // AND when naming is not explicit, i.e., multiple supporting colors
-    let i = 0;
-
-    let classString = '';
-
-
-    // for each shade of color (10), create clas name for each selector provided
-    shades.forEach((shade) => {
-
-      // define class prefix based on selector
-      classSelectors.forEach(classSelector => {
-        switch (classSelector) {
-          case 'background':
-            classString = '.bg-';
-            break;
-          case 'border':
-            classString = '.border-';
-            break;
-          case 'text':
-            classString = '.text-';
-            break;
-          case 'btn':
-            classString = '.btn-';
-            break;
-          default:
-            classString = '.';
-        }
-
-        // if naming not explicit, use generic values of color type, i.e., primary, etc.
-        if (!isExplicitlyNamed) {
-
-          switch (type) {
-            case 'p':
-              classString += 'primary-';
-              break;
-            case 'n':
-              classString += 'neutral-';
-              break;
-            case 's':
-              classString += 'supporting-';
-              break;
-            default:
-              classString += '';
-          }
-          // determine class definition based on selectors provided
-          switch (classSelector) {
-            case 'background':
-              classString += i + '-' + shade.weight + '{background-color:' + shade.hexValue + ';}/*' + colorId + '*/';
-              break;
-            case 'border':
-              classString += i + '-' + shade.weight + '{border-color:' + shade.hexValue + ';}/*' + colorId + '*/';
-              break;
-            case 'text':
-              classString += i + '-' + shade.weight + '{color:' + shade.hexValue + ';}/*' + colorId + '*/';
-              break;
-            case 'btn':
-              classString += i + '-' + shade.weight + '{background-color:' + shade.hexValue + ';border-color:' + shade.hexValue + ';}/*' + colorId + '*/';
-              break;
-            default:
-              classString += i + '-' + shade.weight + '{background-color:' + shade.hexValue + ';}/*' + colorId + '*/';
-          }
-          console.log(classString)
-
-        } else { // if naming explicit, name by color id
-          if (colorId.includes("(Vivid)")) { // if color is vivid
-            colorId = colorId.toLowerCase().replace(/\s/g, '').replace('(', '-').replace(')', '');
-            switch (classSelector) {
-              case 'background':
-                classString += colorId + shade.weight + '{background-color:' + shade.hexValue + ';}';
-                break;
-              case 'border':
-                classString += colorId + shade.weight + '{border-color:' + shade.hexValue + ';}';
-                break;
-              case 'text':
-                classString += colorId + shade.weight + '{color:' + shade.hexValue + ';}';
-                break;
-              case 'btn':
-                classString += colorId + shade.weight + '{background-color:' + shade.hexValue + ';border-color:' + shade.hexValue + ';}';
-                break;
-              default:
-                classString += colorId + shade.weight + '{background-color:' + shade.hexValue + ';}';
-            }
-
-          } else { // if general color
-
-            switch (classSelector) {
-              case 'background':
-                classString += colorId.toLowerCase() + '-' + shade.weight + '{background-color:' + shade.hexValue + ';}';
-                break;
-              case 'border':
-                classString += colorId.toLowerCase() + '-' + shade.weight + '{border-color:' + shade.hexValue + ';}';
-                break;
-              case 'text':
-                classString += colorId.toLowerCase() + '-' + shade.weight + '{color:' + shade.hexValue + ';}';
-                break;
-              case 'btn':
-                classString += colorId.toLowerCase() + '-' + shade.weight + '{background-color:' + shade.hexValue + ';border-color:' + shade.hexValue + ';}';
-                break;
-              default:
-                classString += colorId.toLowerCase() + '-' + shade.weight + '{background-color:' + shade.hexValue + ';}';
-            }
-          }
-        }
-        // push class names to list
-        classNames.push(classString);
-      })
-    })
-    i += 1; // increase i for each color of type e.g., primary-1, primary-2
-  });
-  return classNames;
-}

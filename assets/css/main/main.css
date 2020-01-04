@@ -2,6 +2,12 @@ body {
   background-color: var(--rui-blue-grey-000);
 }
 
+select {
+  background-color: var(--rui-green-000);
+  border-color: var(--rui-green-200);
+  
+}
+
 .sticky-btn-1 {
   position: fixed;
   z-index: 100;
@@ -74,8 +80,22 @@ div#shades-div div.row:hover {
 .bg-rui-indigo-000 {
   background-color: var(--rui-indigo-000);
 }
+.bg-rui-cool-grey-000 {
+  background-color: var(--rui-cool-grey-000);
+}
 .bg-rui-grey-000 {
   background-color: var(--rui-grey-000);
+}
+.bg-rui-blue-grey-000 {
+  background-color: var(--rui-blue-grey-000);
+}
+.bg-rui-green-000 {
+  background-color: var(--rui-green-000);
+}
+
+/* borders */
+.border-rui-green-200 {
+  border-color: var(--rui-green-200);
 }
 
 /* buttons */

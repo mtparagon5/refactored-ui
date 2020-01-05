@@ -262,9 +262,7 @@ $.map(palettes, function (palette) {
     `
       <div class="card mb-5 shadow-lg bg-rui-grey-000">
         <div class="row">
-          <div class="col-md-6">
-            <img id="`+ palette.id + `" class="card-img img-point grow2" src="./assets/img/` + palette.id + `.png" alt="Palette ` + palette.id + ` sample">
-          </div>
+          
           <div class="col-md-6">
             <div class="card-body grow2">
               <h2 class="card-title text-center">Palette ` + palette.id + `</h2>
@@ -280,11 +278,18 @@ $.map(palettes, function (palette) {
               
             </div>
           </div>
+
+          <div class="col-md-6">
+            <img id="`+ palette.id + `" class="card-img img-point grow2" src="./assets/img/` + palette.id + `.png" alt="Palette ` + palette.id + ` sample">
+          </div>
+
         </div>
+
         <a id="colors` + palette.id + `" class="toggler btn text-light btn-rui-green-200">Show Color Palette</a>
         <div id="colors` + palette.id + `" style="display:none; ">
           ` + colorString + `
         </div>
+        
       </div>
     `
   )

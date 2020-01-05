@@ -92,10 +92,17 @@ div#shades-div div.row:hover {
 .bg-rui-green-000 {
   background-color: var(--rui-green-000);
 }
+.bg-transparent {
+  background-color: transparent !important;
+  }
+  
 
 /* borders */
 .border-rui-green-200 {
   border-color: var(--rui-green-200);
+}
+.border-transparent {
+  border-color: transparent !important;
 }
 
 /* buttons */

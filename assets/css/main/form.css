@@ -2,5 +2,8 @@
   background-color: var(--rui-cool-grey-400);
 } */
 html {
-  color: var(--rui-blue-grey-900)
+  color: var(--rui-warm-grey-900)
+}
+.text-rui-green-vivid-300 {
+  color: var(--rui-green-vivid-300)
 }

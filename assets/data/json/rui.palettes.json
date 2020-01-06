@@ -75,7 +75,7 @@
       "neutralColor": "Warm Grey",
       "supportingColors": [
         "Cyan",
-        "Lime Green"
+        "Lime"
       ]
     },
     {
@@ -171,7 +171,7 @@
       "id": 14,
       "primaryColors": [
         "Orange",
-        "Lime Green"
+        "Lime"
       ],
       "neutralColor": "Grey",
       "supportingColors": [
@@ -273,7 +273,7 @@
       ]
     },
     {
-      "color": "Lime Green",
+      "color": "Lime",
       "shades": [
         {
           "weight": "000",
@@ -318,7 +318,7 @@
       ]
     },
     {
-      "color": "Lime Green (Vivid)",
+      "color": "Lime (Vivid)",
       "shades": [
         {
           "weight": "000",

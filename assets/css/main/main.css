@@ -95,6 +95,12 @@ div#shades-div div.row:hover {
 .bg-transparent {
   background-color: transparent !important;
   }
+
+/* text colors */
+.text-rui-green-vivid-300 {
+  color: var(--rui-green-vivid-300)
+}
+ 
   
 
 /* borders */

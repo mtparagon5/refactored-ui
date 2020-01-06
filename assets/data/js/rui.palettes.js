@@ -75,7 +75,7 @@ const ruiPalettes = {
       "neutralColor": "Warm Grey",
       "supportingColors": [
         "Cyan",
-        "Lime Green"
+        "Lime"
       ]
     },
     {
@@ -171,7 +171,7 @@ const ruiPalettes = {
       "id": 14,
       "primaryColors": [
         "Orange",
-        "Lime Green"
+        "Lime"
       ],
       "neutralColor": "Grey",
       "supportingColors": [
@@ -273,7 +273,7 @@ const ruiPalettes = {
       ]
     },
     {
-      "color": "Lime Green",
+      "color": "Lime",
       "shades": [
         {
           "weight": "000",
@@ -318,7 +318,7 @@ const ruiPalettes = {
       ]
     },
     {
-      "color": "Lime Green (Vivid)",
+      "color": "Lime (Vivid)",
       "shades": [
         {
           "weight": "000",

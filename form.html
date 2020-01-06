@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- bootstrap css -->
+  <!-- css -->
   <link rel="stylesheet" href="./assets/css/third/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/third/jquery-ui.min.css">
   <link rel="stylesheet" href="./assets/css/third/paper-kit.min.css">
@@ -37,18 +37,20 @@
 
       <div class="float-right mr-4 mt-3">
         <a type="button" class="btn btn-just-icon bg-transparent border-transparent grow2" data-container="body"
-          data-toggle="popover" title="i" data-content="Here you can customize your file export."><i
+          data-toggle="popover" title="File Generation" data-content="Here you can customize your file export."><i
             class="fas fa-info text-rui-green-vivid-300 "></i></a>
       </div>
 
-      <div class="float-right mr-3 mt-3">
-        <a href="./form.html" id="export" class="btn btn-just-icon bg-transparent border-transparent grow2"><span
-            style="position:relative; right:0px;"><i class="fas fa-file-export text-rui-green-vivid-300"></i></span></a>
+      <div class="float-right mr-2 mt-3">
+        <a href="./form.html" id="form" class="btn btn-just-icon bg-transparent border-transparent grow2">
+          <i class="fas fa-file-download text-rui-green-vivid-300"></i>
+        </a>
       </div>
 
       <div class="float-right mr-3 mt-3">
-        <a href="./index.html" id="home" class="btn btn-just-icon bg-transparent border-transparent grow2"><span
-            style="position:relative; right:0px;"><i class="fas fa-home text-rui-green-vivid-300"></i></span></a>
+        <a href="./index.html" id="home" class="btn btn-just-icon bg-transparent border-transparent grow2">
+          <i class="fas fa-home text-rui-green-vivid-300"></i>
+        </a>
       </div>
 
     </div>
@@ -65,108 +67,165 @@
   <div class="container mt-5">
 
     <!-- palette cards -->
-    <div class="card shadow-lg bg-rui-cool-grey-000">
+    <div class="card shadow-lg bg-rui-grey-000">
+      <div class="row">
+
+
+      </div>
+
       <div class="card-body">
+
+
+
         <form id="form1">
-          <div class="row">
+          <!-- <div class=""> -->
 
-            <div class="col-12 text-center ">
-              <ul class="nav nav-tabs justify-content-center" id="form-tabs" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="tw" data-toggle="tab" href="#tailwind-config" role="tab"
-                    aria-controls="tailwind-config" aria-selected="true">
-                    <h5>Tailwind Config Files</h5>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="custom" data-toggle="tab" href="#custom-css" role="tab"
-                    aria-controls="custom-css" aria-selected="false">
-                    <h5>Custom CSS</h5>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " id="palette" data-toggle="tab" href="#palette-specific" role="tab"
-                    aria-controls="palette-specific" aria-selected="false">
-                    <h5>Palette Specific CSS</h5>
-                  </a>
-                </li>
-              </ul>
+          <!-- tabs -->
+          <div class="col-12 text-center ">
+            <a id="download" class="float-right bg-transparent border-transparent grow2" target="_blank">
+              <i class="fas fa-file-download text-rui-green-vivid-300"></i>
+              <span class="text-rui-grey-200">Download</span>
+            </a>
+            <ul class="nav nav-tabs justify-content-center" id="form-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="tw" data-toggle="tab" href="#tailwind-config" role="tab"
+                  aria-controls="tailwind-config" aria-selected="true">
+                  <h5>Tailwind Config Files</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="custom" data-toggle="tab" href="#custom-css" role="tab"
+                  aria-controls="custom-css" aria-selected="false">
+                  <h5>Custom CSS</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " id="palette" data-toggle="tab" href="#palette-specific" role="tab"
+                  aria-controls="palette-specific" aria-selected="false">
+                  <h5>Palette Specific CSS</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+
+          <!-- form / tab content -->
+          <div class="tab-content w-100">
+
+            <!-- divider -->
+            <hr class="w-75">
+
+            <!-- tailwind config tab -->
+            <div class="col-12 tab-pane fade" role="tabpanel" id="tailwind-config" aria-labelledby="tailwind-config">
+              <div class="form-group text-center" id="tw-color-checkboxes-div">
+                <label for="exportFormSelectColors-tw">Select the colors you would like to include in your
+                  tailwind.config.js file:</label>
+
+                <br>
+
+                <div class="row mt-3">
+                  <div id="tw-colors" class="col-12">
+                  </div>
+                </div>
+
+                <hr class="w-50">
+
+                <div class="row">
+                  <div id="tw-custom-color-checkboxes" class="col-12 "></div>
+                </div>
+
+              </div>
             </div>
 
-            <!-- form / tab content -->
-            <div class="tab-content w-100">
+            <!-- custom color css tab -->
+            <div class="col-12 tab-pane fade" role="tabpanel" aria-labelledby="custom-css" id="custom-css">
+              <div class="form-group text-center" id="css-color-checkboxes-div">
+                <label for="cssExportOptions">Class Options For Export
+                  <sup>
+                    <a type="button" class="btn  btn-sm btn-just-icon bg-transparent border-transparent grow2"
+                      data-container="body" data-toggle="popover" title="File Generation"
+                      data-content="CSS variables will be included by default but here you have the option to add various other classes.">
+                      <i class="fas fa-info text-rui-green-vivid-300 "></i>
+                    </a>
+                  </sup>
+                  <hr>
+                </label>
+                <div id="cssExportOptions" class="col-12"></div>
 
-              <!-- divider -->
-              <hr class="w-75">
+                <hr class="w-50">
 
-              <!-- tailwind config tab -->
-              <div class="col-12 tab-pane fade" role="tabpanel" id="tailwind-config" aria-labelledby="tailwind-config">
-                <div class="form-group text-center" id="tw-color-checkboxes-div">
-                  <label for="exportFormSelectColors-tw">Select the colors you would like to include in your
-                    tailwind.config.js file:</label>
 
-                  <br>
+                <label for="exportFormSelectColors-css">Select the colors you would like to include in your CSS
+                  file:</label>
 
-                  <div class="row">
-                    <div id="tw-custom-color-checkboxes" class="col-12 "></div>
+                <br>
+
+                <div class="row mt-3">
+                  <div id="css-colors" class="col-12">
                   </div>
-
                 </div>
-              </div>
 
-              <!-- custom color css tab -->
-              <div class="col-12 tab-pane fade" role="tabpanel" aria-labelledby="custom-css" id="custom-css">
-                <div class="form-group text-center" id="css-color-checkboxes-div">
-                  <label for="exportFormSelectColors-css">Select the colors you would like to include in your CSS
-                    file:</label>
+                <hr class="w-50">
 
-                  <br>
-
-                  <div class="row mt-3">
-                    <div id="css-colors" class="col-12">
-                    </div>
-                  </div>
-
-                  <hr class="w-50">
-
-                  <div class="row mt-3">
-                    <div id="css-custom-color-checkboxes" class="col-12"></div>
-                  </div>
-
+                <div class="row mt-3">
+                  <div id="css-custom-color-checkboxes" class="col-12"></div>
                 </div>
+
               </div>
-
-              <!-- palette specific tab -->
-              <div class="col-12 tab-pane fade" role="tabpanel" aria-labelledby="palette-specific"
-                id="palette-specific">
-                <div class="form-group col-12 text-center " id="palette-color-radios-div">
-                  <div class="row">
-                    <div class="col-12 text-center">
-                      <label class="w-100" for="exportFormSelectPalette">Select your color
-                        palette:</label>
-                    </div>
-                  </div>
-
-
-                  <div class="row mt-3">
-
-                    <div class="col-12">
-                      <div id="palette-select" class=""></div>
-                    </div>
-                  </div>
-
-                  <div class="row mt-3">
-                    <div id="palette-colors" class="col-12">
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
             </div>
-            <!-- end tab-content -->
+
+            <!-- palette specific tab -->
+            <div class="col-12 tab-pane fade" role="tabpanel" aria-labelledby="palette-specific" id="palette-specific">
+              <div class="form-group col-12 text-center " id="palette-color-radios-div">
+
+                <label for="cssExportOptions">Class Options For Export
+                  <sup>
+                    <a style="position:relative; bottom:5px;" type=" button"
+                      class="btn  btn-sm btn-just-icon bg-transparent border-transparent grow2" data-container="body"
+                      data-toggle="popover" title="File Generation"
+                      data-content="CSS variables will be included by default but here you have the option to add various other classes.">
+                      <i class="fas fa-info text-rui-green-vivid-300 "></i>
+                    </a style="position:relative; bottom:15px;">
+                  </sup>
+                  <hr>
+                </label>
+                <div id="paletteExportOptions" class="col-12"></div>
+
+                <hr class="w-50">
+
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <label class="w-100" for="exportFormSelectPalette">Select your color
+                      palette:</label>
+                  </div>
+                </div>
+
+
+                <div class="row mt-3">
+
+                  <div class="col-12">
+                    <div id="palette-select" class=""></div>
+                  </div>
+                </div>
+
+                <div class="row mt-3">
+                  <div id="palette-colors" class="col-12">
+                  </div>
+                </div>
+
+              </div>
+            </div>
 
           </div>
+          <!-- end tab-content -->
+
+          <div class="row">
+            <div class="col-12">
+              <div id="file-data"></div>
+            </div>
+          </div>
+
+          <!-- </div> -->
         </form>
       </div>
     </div>
@@ -190,10 +249,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
-  <!-- bootstrap-select -->
-  <!-- Latest compiled and minified JavaScript -->
-  <!-- <script src="./assets/js/third/bootstrap-select.js"></script> -->
-
+  <!-- creative tim theme -->
   <script src="./assets/js/third/paper-kit.js"></script>
 
   <!-- custom js -->

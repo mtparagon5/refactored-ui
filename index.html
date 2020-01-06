@@ -11,8 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
 
-  <!-- bootstrap css -->
+  <!-- css -->
   <link rel="stylesheet" href="./assets/css/third/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/third/jquery-ui.min.css">
   <link rel="stylesheet" href="./assets/css/third/paper-kit.min.css">
   <link rel="stylesheet" href="./assets/css/main/rui.variables.css">
   <link rel="stylesheet" href="./assets/css/main/main.css">
@@ -28,14 +29,28 @@
   <!-- <div class="col-12" style="height:50px;background-color: var(--rui-blue-grey-300);"></div> -->
   <div class="row ml-0">
     <div class="col-12">
+
       <div class="float-right mr-4 mt-3">
-        <a href="./form.html" id="twcss" class="btn btn-just-icon btn-rui-purple-vivid-100 shadow-lg grow2"><span
-            style="position:relative; right:0px;"><i class="fas fa-file-export"></i></span></a>
+        <a type="button" class="btn btn-just-icon bg-transparent border-transparent grow2" data-container="body"
+          data-toggle="popover" title="Color Palettes"
+          data-content="Here are 14 preconfigured color palettes designed by RefactoredUI to help get you started quickly."><i
+            class="fas fa-info text-rui-green-vivid-300 "></i></a>
       </div>
+
+      <div class="float-right mr-2 mt-3">
+        <a href="./form.html" id="twcss"
+          class="btn btn-just-icon border-transparent bg-transparent text-rui-green-vivid-300 grow2">
+          <i class="fas fa-file-download text-rui-green-vivid-300"></i>
+        </a>
+      </div>
+
       <div class="float-right mr-3 mt-3">
-        <a href="#" id="twcss" class="btn btn-just-icon btn-rui-purple-vivid-100 shadow-lg grow2"><span
-            style="position:relative; right:0px;"><i class="fas fa-home"></i></span></a>
+        <a href="#" id="twcss"
+          class="btn btn-just-icon border-transparent bg-transparent text-rui-green-vivid-300 grow2">
+          <i class="fas fa-home text-rui-green-vivid-300"></i>
+        </a>
       </div>
+
     </div>
   </div>
   <!-- header -->
@@ -62,14 +77,17 @@
   </div>
 
   <!-- bootstrap js -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="./assets/js/third/jquery-ui.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+
+  <!-- creative tim theme -->
+  <script src="./assets/js/third/paper-kit.js"></script>
 
   <!-- custom js -->
   <script src="./assets/js/main.js"></script>

@@ -4,6 +4,16 @@
 html {
   color: var(--rui-warm-grey-900)
 }
-.text-rui-green-vivid-300 {
-  color: var(--rui-green-vivid-300)
+
+a.nav-link {
+  background-color: var(--rui-grey-000) !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* text colors */
+.text-rui-grey-200 {
+   color: var(--rui-grey-200)
 }

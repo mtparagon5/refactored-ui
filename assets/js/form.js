@@ -519,7 +519,7 @@ function getColorVariables(state) {
             varString += colorId.toLowerCase().replace(' ', '-') + '-';
           }
 
-          varString += '-' + shade.weight + ': ' + shade.hexValue + ';';
+          varString += shade.weight + ': ' + shade.hexValue + ';';
         }
 
         varStrings.push(varString);
@@ -1028,7 +1028,8 @@ function download(state) {
   //   }
   // }
   let filename = '';
-  let variables = [], classNames = [];
+  let variables = [],
+    classNames = [];
   let documents = [];
 
   if (state.colors.length >= 1) {
@@ -1046,7 +1047,10 @@ function download(state) {
       });
       text_twconfig += '}\n}\n}\n}';
 
-      documents.push({ filename: TW_FILENAME, text: text_twconfig });
+      documents.push({
+        filename: TW_FILENAME,
+        text: text_twconfig
+      });
 
     } else { // custom css or palette specific files
       if (state.options.length == 1 & state.options[0] == NAMING_OPTIONS[0]) {
@@ -1070,7 +1074,10 @@ function download(state) {
           text_custom += v + '\n';
         });
         let fname = state.currentType == PALETTE ? PALETTE_FILENAME + state.paletteId + '.css' : CUSTOM_CSS_FILENAME;
-        let customDoc = { filename: fname, text: text_custom }
+        let customDoc = {
+          filename: fname,
+          text: text_custom
+        }
         documents.push(customDoc);
       } else {
         variables = getColorVariables(state)
@@ -1080,7 +1087,10 @@ function download(state) {
         text_variables += '}';
       }
       let vfname = state.currentType == PALETTE ? VARIABLES_FILENAME + 'palette-' + state.paletteId + '.css' : VARIABLES_FILENAME + 'custom.css';
-      let variablesDoc = { filename: vfname, text: text_variables };
+      let variablesDoc = {
+        filename: vfname,
+        text: text_variables
+      };
       documents.push(variablesDoc);
     }
 
